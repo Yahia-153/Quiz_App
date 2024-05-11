@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Quiz - 3</title>
+</head>
+<body >
+    <div class="header">
+        <h1>Quiz <span id="QNS">3</span></h1>
+    </div>
+    <div class="main">
+        <div class="quiz">
+            <h3>What year did World War II start?</h3>
+        </div>
+        <input type="text" name=""  id="answerF" readonly="">
+        <div class="answers">
+            <input type="button" value="1940"class="answer"id="wrong" onclick="answerF.value = '1940'">
+            <input type="button" value="1939"class="answer" id="right" onclick="answerF.value = '1939'">
+            <input type="button" value="1938"class="answer"id="wrong" onclick="answerF.value = '1938'">
+        </div>
+        <div class="end">
+            <input type="button" value="submit" onclick="submit()" id="submitBtn">
+        </div>
+        <p id="result"></p>
+    </div>
+    
+</body>
+</html>

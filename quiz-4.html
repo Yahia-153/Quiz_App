@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Quiz - 4</title>
+</head>
+<body >
+    <div class="header">
+        <h1>Quiz <span id="QNS">4</span></h1>
+    </div>
+    <div class="main">
+        <div class="quiz">
+            <h3>What is Sweden's capital city?</h3>
+        </div>
+        <input type="text" name=""  id="answerF" readonly="">
+        <div class="answers">
+            <input type="button" value="stockholm"class="answer" id="right" onclick="answerF.value = 'stockholm'">
+            <input type="button" value="Tegucigalpa"class="answer"id="wrong" onclick="answerF.value = 'Tegucigalpa'">
+            <input type="button" value="San José"class="answer"id="wrong" onclick="answerF.value = 'San José'">
+        </div>
+        <div class="end">
+            <input type="button" value="submit" onclick="submitEnd()" id="submitBtn">
+        </div>
+        <p id="result"></p>
+    </div>
+    
+</body>
+</html>
